@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+}
+body{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 1.7rem;
+    overflow: hidden;
+    width: 100%;
+    background: #F50057;
+}
+
+.card{
+    width: 30rem;
+    max-width: 100%;
+    background: #fff;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 1rem;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+button{
+    color: #fff;
+    background: #F50057;
+    border: none;
+    padding: 10px;
+    border-radius: .4rem;
+    width: 100%;
+    cursor: pointer;
+    font-size: large;
+}
+.select{
+    display: flex;gap: 5px;
+    flex-direction: column;
+}
+select{
+    width: 100%;
+    border: 2px solid #F50057;
+    border-radius: 5px;
+}
